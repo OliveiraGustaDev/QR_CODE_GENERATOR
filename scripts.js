@@ -1,3 +1,4 @@
+
 // Seleção de Elementos
 
 const container = document.querySelector(".container");
@@ -7,6 +8,7 @@ const qrInput = document.querySelector("#qr-form input");
 const generatorButton = document.querySelector("#qr-form button");
 const cleanButton = document.querySelector("#clean");
 const imgQrCode = document.querySelector("#qr-code img");
+const descriptionImg = document.querySelector("#description-img");
 
 // Funcões
 
@@ -30,6 +32,8 @@ const generateCode = () => {
     qrHeaderTitle.innerHTML = "Seu código foi criado e está pronto para uso.";
     qrHeaderTitle.style.color = "#ffb108";
     qrHeaderTitle.style.fontWeight = "bold";
+
+    descriptionImg.innerHTML = textQrCodeInput;
   });
 };
 
