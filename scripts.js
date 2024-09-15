@@ -1,4 +1,3 @@
-
 // Seleção de Elementos
 
 const container = document.querySelector(".container");
@@ -44,6 +43,7 @@ const restartAll = () => {
   qrHeaderTitle.style.fontWeight = "";
   generatorButton.innerHTML = "Gerar QR Code";
   qrInput.value = "";
+  descriptionImg.innerHTML = "";
 };
 
 // Eventos
@@ -69,3 +69,4 @@ qrInput.addEventListener("keyup", () => {
     restartAll();
   }
 });
+
