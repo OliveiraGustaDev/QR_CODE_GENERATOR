@@ -23,7 +23,7 @@ body {
 }
 
 .container.active {
-  height: 570px;
+  height: 590px;
 }
 
 #qr-header {
@@ -92,3 +92,8 @@ body {
   pointer-events: auto;
   transition: 0.5s;
 }
+
+#description-img {
+  text-align: center;
+}
+
