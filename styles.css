@@ -23,7 +23,7 @@ body {
 }
 
 .container.active {
-  height: 590px;
+  height: 630px;
 }
 
 #qr-header {
@@ -95,5 +95,31 @@ body {
 
 #description-img {
   text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  padding: 0.7rem;
+  background-color: #444;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.to-hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.to-hide span,
+.show span {
+  color: #f3b93c;
+  font-weight: bold;
 }
 
